@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>LUDDINY CHK PRO</title>
+
+  <!-- CSS desde static -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body class="login-bg">
+
+  <div class="login-box">
+    <img src="/static/img/logo.png" class="logo" alt="LUDDINY">
+
+    <h1>LUDDINY CHK <span>PRO</span></h1>
+
+    <!-- FORMULARIO REAL PARA FLASK -->
+    <form method="POST">
+      <input type="text" name="user" placeholder="Usuario" required>
+      <input type="password" name="pass" placeholder="Contraseña" required>
+
+      <button type="submit">ENTRAR</button>
+    </form>
+
+    {% if error %}
+      <p id="msg" style="color:red;">{{ error }}</p>
+    {% endif %}
+  </div>
+
+</body>
+</html>
+

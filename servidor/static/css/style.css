@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #3a0066, #000033);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', 'Montserrat', Arial, sans-serif;
+  color: #f5f5f5;
+}
+
+/* LOGIN */
+.login-box {
+  background: rgba(0,0,0,0.85);
+  padding: 30px;
+  width: 320px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px #b300ff;
+  text-align: center;
+}
+
+.logo {
+  width: 180px;
+  max-width: 80%;
+  margin-bottom: 15px;
+  filter: drop-shadow(0 0 15px rgba(255, 0, 255, 0.6));
+}
+
+.dash-logo {
+  width: 300px;
+  display: block;
+  margin: 0 auto 25px;
+  filter: drop-shadow(0 0 30px #ffcc00);
+}
+
+h1 {
+  color: #ffcc00;
+}
+
+h1 span {
+  color: #b300ff;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background: linear-gradient(90deg, #ffcc00, #b300ff);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 15px #ffcc00;
+}
+
+#msg {
+  color: red;
+  margin-top: 10px;
+}
+
+.status {
+  color: #00eaff; /* azul neón */
+  font-weight: bold;
+  margin-top: 15px;
+  text-shadow: 0 0 8px #00eaff;
+}
+
+/* CONTENEDOR DEL LOGO */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* BOTONES */
+button {
+  font-family: 'Poppins', 'Montserrat', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+/* ESTADO */
+.estado {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #00ffcc;
+  opacity: 0.85;
+}

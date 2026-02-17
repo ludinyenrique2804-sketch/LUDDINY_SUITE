@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>LUDDINY CHK PRO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS desde static -->
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body class="dash-bg">
+
+  <div class="panel">
+    <img src="/static/img/logo.png" class="logo" alt="LUDDINY">
+
+    <button onclick="genAction()">✨ GEN</button>
+    <button onclick="massAction()">💳 MASS</button>
+    <button onclick="estrassAction()">🔥 ESTRASS</button>
+
+    <div id="status" class="status">
+      ⚙️ Estado: esperando acción...
+    </div>
+
+    <a href="/logout" class="logout">Cerrar sesión</a>
+  </div>
+
+  <!-- JS desde static -->
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
+
